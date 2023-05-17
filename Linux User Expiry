@@ -8,6 +8,7 @@ Therefore, create a user named ravi on the App Server 3. Set expiry date to 2021
 First we check user is present on passwd file or not.
 
 cat /etc/passwd 
+id username
 
 useradd -e 2021-01-28 ravi
 
